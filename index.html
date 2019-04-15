@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Map</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="map-wrap" data-lat="50.44701118" data-lng="30.51452637">
+    <div class="new-map" data-index="0"></div>
+    <form class="add-marker">
+      <input class="lat_number" type="text" name="lat" placeholder="Latitude">
+      <input class="lng_number" type="text" name="lng" placeholder="Longitude">
+      <input class="title" type="text" name="title" placeholder="Name">
+      <label><input type="checkbox" class="checkbox_animated" name="is_animated" label="Animated">Animated?</label>
+      <label><input type="checkbox" class="checkbox_icon" name="is_custom_icon" label="Icon">Icon</label>
+      <select name="icon" style="display: none">
+        <option value="images/flag.png">Flag</option>
+        <option value="images/pin.png">Pin</option>
+      </select>
+      <button type="submit">Add New Marker</button>
+    </form>
+  </div>
+
+  <div class="map-wrap" data-lat="50.44701118" data-lng="30.51452637">
+    <div class="new-map" data-index="1"></div>
+    <form class="add-marker">
+      <input class="lat_number" type="text" name="lat" placeholder="Latitude">
+      <input class="lng_number" type="text" name="lng" placeholder="Longitude">
+      <input class="title" type="text" name="title" placeholder="Name">
+      <label><input type="checkbox" class="checkbox_animated" name="is_animated" label="Animated">Animated?</label>
+      <label><input type="checkbox" class="checkbox_icon" name="is_custom_icon" label="Icon">Icon</label>      
+      <select name="icon" style="display: none">
+        <option value="images/flag.png">Flag</option>
+        <option value="images/pin.png">Pin</option>
+      </select>
+      <button type="submit">Add New Marker</button>
+    </form>
+  </div>
+
+  <div class="map-wrap" data-lat="50.44701118" data-lng="30.51452637">
+    <div class="new-map" data-index="2"></div>
+    <form class="add-marker">
+      <input class="lat_number" type="text" name="lat" placeholder="Latitude">
+      <input class="lng_number" type="text" name="lng" placeholder="Longitude">
+      <input class="title" type="text" name="title" placeholder="Name">
+      <label><input type="checkbox" class="checkbox_animated" name="is_animated" label="Animated">Animated?</label>
+      <label><input type="checkbox" class="checkbox_icon" name="is_custom_icon" label="Icon">Icon</label> 
+      <select name="icon" style="display: none">
+        <option value="images/flag.png">Flag</option>
+        <option value="images/pin.png">Pin</option>
+      </select>
+      <button type="submit">Add New Marker</button>
+    </form>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd33fMTe0xOYie6wfZd0k6uGJx-zjuMRU&callback=initMap"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
